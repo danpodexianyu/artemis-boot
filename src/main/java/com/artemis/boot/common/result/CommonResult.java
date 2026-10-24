@@ -34,6 +34,7 @@ public class CommonResult<T> {
     /**
      * 私有构造器, 禁止外部直接通过 new 关键字创建实例, 统一使用静态方法构建
      */
+    @SuppressWarnings("unused")
     private CommonResult() {
     }
 
