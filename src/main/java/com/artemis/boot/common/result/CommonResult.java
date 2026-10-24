@@ -1,7 +1,7 @@
 package com.artemis.boot.common.result;
 
 import lombok.AllArgsConstructor;
-import lombok.Data;
+import lombok.Getter;
 
 /**
  * 后端接口统一返回实体
@@ -12,6 +12,7 @@ import lombok.Data;
  * @author ryan fawcett
  * @since 1.0.0
  */
+@Getter
 @AllArgsConstructor
 public class CommonResult<T> {
 
