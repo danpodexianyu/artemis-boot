@@ -114,7 +114,7 @@ public class CommonResult<T> {
      * @return CommonResult实例
      */
     public static <T> CommonResult<T> error() {
-        return build(CommonResultCode.SERVER_ERROR);
+        return build(CommonResultCode.SYSTEM_ERROR);
     }
 
     /**

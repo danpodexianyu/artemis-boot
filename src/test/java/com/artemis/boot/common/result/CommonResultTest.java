@@ -29,7 +29,7 @@ class CommonResultTest {
 
         // 4. error() 默认系统异常
         CommonResult<Void> errorDefault = CommonResult.error();
-        assertThat(errorDefault.getCode()).isEqualTo(CommonResultCode.SERVER_ERROR.getCode());
+        assertThat(errorDefault.getCode()).isEqualTo(CommonResultCode.SYSTEM_ERROR.getCode());
         assertThat(errorDefault.getData()).isNull();
 
         // 5. error(code, message) 自定义码+信息
