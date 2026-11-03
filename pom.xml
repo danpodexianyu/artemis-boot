@@ -13,7 +13,7 @@
 
     <groupId>com.example</groupId>
     <artifactId>artemis-boot</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.2.1-SNAPSHOT</version>
     <name>artemis-boot</name>
     <description>General SpringBoot scaffolding project</description>
 
