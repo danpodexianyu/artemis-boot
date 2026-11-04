@@ -1,2 +1,9 @@
 server:
   port: 8080
+
+artemis:
+  cors:
+    # 跨域允许的来源白名单, 逗号分隔; 生产环境必须替换为真实前端域名
+    # 示例: https://app.example.com,https://admin.example.com
+    # 留空时默认放行本地开发地址 (localhost:3000)
+    allowed-origins: http://localhost:3000,http://127.0.0.1:3000
