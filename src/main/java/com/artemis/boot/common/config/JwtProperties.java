@@ -24,7 +24,7 @@ public class JwtProperties {
     /**
      * 请求头名称
      */
-    private String header;
+    private String header = "Authorization";
 
     /**
      * token 前缀

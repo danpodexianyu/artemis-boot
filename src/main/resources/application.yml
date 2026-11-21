@@ -9,7 +9,4 @@ artemis:
     allowed-origins: http://localhost:3000,http://127.0.0.1:3000
   jwt:
     secret: 'sf5kFIHttT7kqZ3ceF79TMYlh8H6ZvMBQm0gP0qR6HU='
-    # token有效期, 单位秒
     expire: 3600
-    header: Authorization
-    prefix: 'Bearer '
