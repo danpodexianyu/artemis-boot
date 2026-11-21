@@ -1,4 +1,4 @@
-package com.artemis.boot.biz.controller;
+package com.artemis.boot.controller;
 
 import com.artemis.boot.common.util.JwtUtil;
 import lombok.Data;

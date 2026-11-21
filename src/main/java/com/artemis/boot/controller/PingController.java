@@ -1,4 +1,4 @@
-package com.artemis.boot.biz.controller;
+package com.artemis.boot.controller;
 
 import com.artemis.boot.common.exception.BusinessException;
 import com.artemis.boot.common.result.CommonResult;
