@@ -28,6 +28,7 @@ artemis:
     # 留空时默认放行本地开发地址 (localhost:3000)
     allowed-origins: http://localhost:3000,http://127.0.0.1:3000
   jwt:
+    disable: true
     secret: 'sf5kFIHttT7kqZ3ceF79TMYlh8H6ZvMBQm0gP0qR6HU='
     expire: 3600
 
