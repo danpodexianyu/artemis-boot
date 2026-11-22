@@ -57,10 +57,7 @@ public class CorsConfig implements WebMvcConfigurer {
      */
     private String[] resolveOrigins() {
         if (allowedOriginsConfig != null && !allowedOriginsConfig.isBlank()) {
-            return Arrays.stream(allowedOriginsConfig.split(","))
-                    .map(String::trim)
-                    .filter(s -> !s.isEmpty())
-                    .toArray(String[]::new);
+            return Arrays.stream(allowedOriginsConfig.split(",")).map(String::trim).filter(s -> !s.isEmpty()).toArray(String[]::new);
         }
         return DEFAULT_DEV_ORIGINS.toArray(String[]::new);
     }
